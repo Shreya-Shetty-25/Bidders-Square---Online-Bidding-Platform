@@ -1,0 +1,596 @@
+/* Custom CSS for navbar */
+@media (max-width: 1800px){
+    body{
+        overflow-x: hidden;
+    }
+.navbar {
+    position: relative; 
+    z-index: 9; 
+    background-color: transparent;
+}
+.navbar-brand {
+    
+  }
+  .navbar-nav {
+    margin-right: auto;
+  }
+  .nav-link {
+    padding-right: 15px;
+    color: azure;
+  }
+  .nav-item{
+    padding: 20px 10px;
+    font-weight: 500;
+    font-size: 22px;
+    text-wrap: nowrap;
+  }
+  .nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px; 
+    width: 100%;
+    height: 2px; 
+    background-color: white;
+    transition: all 0.3s ease;
+    opacity: 0; 
+}
+
+.nav-link:hover::after {
+    opacity: 1;
+    bottom: -4px; 
+}
+.nav-link:hover{
+    color: aliceblue;
+}
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    background-image: url('https://img.freepik.com/free-photo/stylish-businesswoman-with-laptop-cosy-coffee-shop_23-2147989635.jpg?ga=GA1.1.2024109144.1723124577&semt=ais_hybrid'); 
+    background-size: cover;
+    z-index: -1; 
+}
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.text-overlay h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.text-overlay p {
+    font-size: 40px;
+    color:white;
+}
+.candid{
+    margin-top: 750px; 
+    text-align: center;
+}
+.candid p {
+    position: relative;
+    display: inline-block; 
+}
+
+.candid p::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 4px;
+    background-color:rgb(255, 168, 7);
+}
+.sell_items{
+    margin-top: 10px; 
+    align-items: center;
+    padding:0px 0px;
+}
+.sell_items .col-xs-12{
+    padding: 30px;
+}
+.product-counter-inner{
+    height:500px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    transition: height 0.4s ease; 
+}
+.product-counter-inner:hover {
+    height: 600px; 
+}
+.submit-bid {
+    display: none; 
+}
+
+.product-counter-inner:hover .submit-bid {
+    display: block; 
+}
+.product-status{
+    height: 80px;
+    background-color:#2d9f31;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: 25px;
+    padding: 18px;
+    font-weight: 300;
+    color: #e5f4fd;
+    text-wrap: nowrap;
+    
+}
+.product-counter-inner {
+    text-align: center; /* Aligns content horizontally */
+}
+.product-description{
+    text-decoration: none;
+    font-size: 25px;
+    color: red;
+}
+.price{
+    font-size: 18px;
+    font-weight: 100;
+}
+.price-money{
+    font-size: 20px;
+    font-weight: 600;
+}
+.submit-bid-button{
+    background-color: red;
+    padding: 15px 25px;
+    width: 250px;
+    border-radius: 30px;
+    color: #e5f4fd;
+    font-weight: 500;
+    font-size: 20px;
+}
+.submit-bid:hover {
+    background-color: green; 
+    color: white;
+    border-radius: 30px;
+    width: 250px;
+    margin: 0px 25px;
+}
+.circle {
+    margin: 30px auto; 
+    width: 180px; 
+    height: 180px;
+    border: 3px solid gainsboro;
+    border-radius: 50%; 
+    font-size: 80px;
+    color: rgb(255, 168, 7);
+    font-family: 'Trebuchet MS';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-image 3s ease-out; 
+}
+
+.circle:hover {
+    background-image: linear-gradient(rgb(255, 230, 107), rgb(247, 138, 95), rgb(255, 71, 101)); 
+    color: white;
+}
+.details{
+    font-size: 30px;
+    padding: 10px 125px;
+    color: black;
+    letter-spacing: 0.2px;
+    font-family: 'Trebuchet MS';
+}
+.how-it-works .register-link {
+    position: relative;
+    display: inline-block; 
+}
+
+.how-it-works .register-link::after {
+    content: '';
+    position: absolute;
+    bottom: -4px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%; 
+    height: 3.5px;
+    background-color: rgb(255, 168, 7); /* Change color as needed */
+    transition: all 0.3s ease; /* Add transition effect */
+    opacity: 1; /* Initially hide the underline */
+}
+.description{
+    padding:40px 110px;
+    font-size: 20px;
+    text-align: center;
+    text-wrap:stable;
+    color: gray;
+}
+
+.how-it-works{
+    margin-top: 20px;
+}
+.register-link{
+    text-wrap: nowrap;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.carousel-control-prev {
+    margin-top: 90px;
+    left: 30px; /* Adjust left offset for previous button */
+}
+
+.carousel-control-next {
+    margin-top: 90px;
+    right: 50px; /* Adjust left offset for previous button */
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+.customer-heading {
+    position: relative;
+    text-align: center; /* Center the text */
+}
+
+.customer-heading::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%); /* Center the underline */
+    width: 150px; /* Adjust the width of the underline */
+    height: 3px;
+    background-color:rgb(255, 168, 7) ; /* Adjust the color as needed */
+}
+.customer-image{
+    border-radius: 50%;
+    margin-top: -2px;
+    margin-left: 30%;
+    
+}
+.customer-comment {
+    padding-left: 20px; /* Add some space to the left of the customer comment */
+    position: relative;
+    overflow-y:auto;
+    height: 400px;
+}
+.comment-box{
+    background-color: white;
+     border-radius: 2%; 
+     height: 650px;
+}
+.comment-descp{
+    font-size: 25px;
+    color: rgb(65, 64, 64);
+    font-weight: 300;
+    margin-right: 200px;
+}
+.cust-name{
+    margin-left: 25px;
+    font-size: 26px;
+    color:green ;
+    margin-top: -120px;
+}
+.cust-type{
+    margin-left: 25px;
+    font-size: 18px;
+    color:grey ;
+    /* margin-top: -10px; */
+}
+.quotes{
+    font-size: 30px;
+    margin-bottom: 20px;
+     color: rgb(255, 168, 7);
+}
+.footer{
+    padding: 64px;
+    background-color: black;
+    color: rgb(255, 168, 7);
+}
+.footer .footer-heading {
+    font-size: 25px;
+    margin-bottom: 30px;
+    color:rgb(255, 168, 7) ;
+}
+.footer .copyright {
+    padding-top: 7rem;
+    text-align: center;
+}
+.footer ul li {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+li a{
+    color: #e5f4fd;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.icon{
+    font-size: 30px;
+    color: rgb(228, 151, 8);
+    display: flex;
+}
+}
+
+@media (min-width:991px) and (max-width: 1400px) {
+    body{
+        overflow-x: hidden;
+    }
+   .product-box{
+    margin-right: 80px;
+    /* background-color: #2d9f31; */
+   }
+   .sell_items{
+    margin-top: 100px;
+   }
+   .register-link{
+    padding-left: 60px;
+   }
+   .description{
+    text-align:center;
+    font-size: 20px;
+    padding: 50px;
+   }
+   .how-it-works .register-link {
+    position: relative;
+    display: inline-block; /* Ensures the underline spans only the text width */
+}
+
+.how-it-works .register-link::after {
+    content: '';
+    position: absolute;
+    bottom: -4px; /* Adjust the space between text and underline */
+    /* left: 60%; Center the underline */
+    transform: translateX(-50%); /* Center the underline horizontally */
+    width: 30%; /* Ensure the underline spans the entire width */
+    height: 3.5px; /* Adjust the thickness of the underline */
+    background-color: rgb(255, 168, 7); /* Change color as needed */
+    transition: all 0.3s ease; /* Add transition effect */
+    opacity: 1; /* Initially hide the underline */
+}
+
+.cust-name{
+    margin-left: 55px;
+    font-size: 26px;
+    color:green ;
+    margin-top: -60px;
+}
+.comment-descp{
+    font-size: 22px;
+    margin-left: 40px;
+}
+.comment-box{
+    background-color: white;
+     border-radius: 2%; 
+     height: 700px;
+}
+.cust-type{
+    margin-left: 55px;
+    font-size: 18px;
+    color:grey ;
+    /* margin-top: -10px; */
+}
+}
+
+@media(max-width: 990px) {
+    body{
+        overflow-x: hidden;
+    }
+    .navbar {
+        background-color: rgb(228, 151, 8);
+    }
+    .candid p::after {
+        bottom: -2px; /* Adjust for smaller screens */
+    }
+    .background-image .text-overlay{
+        top: 80%;
+    }
+    .text-overlay h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        text-wrap: nowrap;
+    }
+    .candid {
+        position: absolute;
+        top: calc(5% + 200px); /* Adjust the positioning to stay below the image */
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .sell_items .col-xs-12{
+        padding: 30px;
+    }
+    .how-title {
+        /* Adjust the margin as needed */
+        margin-top: 6400px;
+      }
+      .how-it-works .register-link {
+        position: relative;
+        display: inline-block; /* Ensures the underline spans only the text width */
+    }
+    .how-it-works{
+        margin-top: 200px;
+    }
+    
+    .how-it-works .register-link::after {
+        content: '';
+        position: absolute;
+        bottom: -4px; /* Adjust the space between text and underline */
+        /* left: 50%; Center the underline */
+        transform: translateX(-50%); /* Center the underline horizontally */
+        width: 30%; /* Ensure the underline spans the entire width */
+        height: 3.5px; /* Adjust the thickness of the underline */
+        background-color: rgb(255, 168, 7); /* Change color as needed */
+        transition: all 0.3s ease; /* Add transition effect */
+        opacity: 1; /* Initially hide the underline */
+    }
+    .register-link{
+        /* margin-left: 65px; */
+        text-align: center;
+    }
+    .sell_items{
+        margin-top: 1000px;
+    }
+    .cust-name{
+        margin-left: 75px;
+        font-size: 26px;
+        color:green ;
+        margin-top: 30px;
+    }
+    .comment-descp{
+        font-size: 22px;
+        margin-left: 60px;
+        /* height: 900px; */
+    }
+    .comment-box{
+        background-color: white;
+         border-radius: 2%; 
+         height: 800px;
+    }
+    .cust-type{
+        margin-left: 75px;
+        font-size: 18px;
+        color:grey ;
+        /* margin-top: -10px; */
+    }
+    .customer-comment{
+        height: 450px;
+    }
+   .quotes{
+    font-size: 30px;
+    margin-left: 30px;
+     color: red;
+}
+    
+    
+}
+@media (max-width: 560px){
+    body{
+        overflow-x: hidden;
+    }
+    .sell_items{
+        margin-top: 990px; 
+        align-items: center;
+        padding:0px 0px;
+    }
+    .sell_items .col-xs-12{
+        padding: 30px;
+    }
+    .how-title {
+        /* Adjust the margin as needed */
+        margin-top: 10800px;
+      }
+      .how-it-works{
+        margin-top: 250px;
+    }
+    .register-link{
+        text-align: center;
+    }
+    .cust-name{
+        margin-left: 75px;
+        font-size: 26px;
+        color:green ;
+        margin-top:auto
+    }
+    .comment-descp{
+        font-size: 18px;
+        margin-left: 90px;
+        text-align: center;
+        margin: 20px;
+        
+        /* height: 900px; */
+    }
+    .comment-box{
+        background-color: white;
+         border-radius: 2%; 
+         height:200px;
+         text-wrap: stable;
+         width: 100%;
+         margin: 0px;
+    }
+    .cust-type{
+        margin-left: 75px;
+        font-size: 18px;
+        color:grey ;
+        /* margin-top: -10px; */
+    }
+    .customer-comment{
+        height: 450px;
+    }
+    
+}
+@media (max-width: 770px){
+    body{
+        overflow-x: hidden;
+    }
+    .sell_items{
+        margin-top: 990px; 
+        align-items: center;
+         padding:0px 0px;
+    }
+    .sell_items .col-xs-12{
+        padding: 30px;
+    }
+    .how-title{
+        margin-top: 10900px;
+    }
+    .product-box{
+        margin-left: 80px;
+    }
+    .register-link{
+        text-align: center;
+    }
+    .cust-name{
+        margin:10px 200px;
+        font-size: 26px;
+        color:green ;
+        margin-top:auto
+    }
+    .comment-descp{
+        font-size: 22px;
+        margin-left: 90px;
+        text-align: center;
+        
+        /* height: 900px; */
+    }
+    .comment-box{
+        background-color: white;
+         border-radius: 2%; 
+         height:max-content;
+    }
+    .cust-type{
+        margin:10px 200px;
+        font-size: 18px;
+        color:grey ;
+        /* margin-top: -10px; */
+    }
+    .customer-comment{
+        height: 450px;
+    }
+    .quotes{
+        margin-bottom: 30px;
+    }
+    
+}

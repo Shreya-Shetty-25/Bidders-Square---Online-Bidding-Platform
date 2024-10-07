@@ -1,0 +1,233 @@
+body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.navbar {
+position: relative; /* Ensure the navbar is positioned relative to the parent container */
+z-index: 9; /* Ensure the navbar appears on top of other content */
+background-color: transparent;
+}
+.navbar-brand {
+/* margin-right: 50px; Adjust the margin as per your design */
+}
+.navbar-nav {
+margin-right: auto; /* Push nav items to the left */
+}
+.nav-link {
+padding-right: 15px; /* Adjust spacing between nav items */
+color: azure;
+}
+.nav-item{
+padding: 20px 10px;
+font-weight: 500;
+font-size: 22px;
+text-wrap: nowrap;
+}
+.nav-link {
+position: relative;
+}
+
+.nav-link::after {
+content: '';
+position: absolute;
+left: 0;
+bottom: -4px; /* Adjust the space between text and underline */
+width: 100%;
+height: 2px; /* Adjust the thickness of the underline */
+background-color: white;
+transition: all 0.3s ease; /* Add transition effect */
+opacity: 0; /* Initially hide the underline */
+}
+
+.nav-link:hover::after {
+opacity: 1; /* Show the underline on hover */
+bottom: -4px; /* Adjust the space between text and underline */
+}
+.nav-link:hover{
+color: aliceblue;
+}
+.background-image {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 500px;
+background-image: url('images/shop.avif'); /* Replace with your image path */
+background-size: cover;
+z-index: -1; /* Place behind other content */
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text-overlay {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+color: white;
+}
+
+.text-overlay h1 {
+font-size: 70px;
+margin-bottom: 20px;
+font-weight: 700;
+}
+
+.text-overlay p {
+font-size: 40px;
+color:white;
+}
+
+.col-lg-3, .col-lg-8{
+    position: relative;
+    /* width: 100%; */
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.side-box {
+    padding: 20px;
+    border: 1px solid rgb(239, 239, 239);
+    box-shadow: rgba(0, 0, 0, 0.03) 0px 3px 5px 0px;
+    /* margin-top: 900px; */
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.btn {
+    padding: 14px 20px;
+    border-radius: 0px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: inset;
+  }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.carousel-indicators .box{
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: gray;
+}
+  /* Custom CSS for active carousel indicator */
+  .carousel-indicators .active {
+    background-color: rgb(255, 168, 7);
+  }
+  .carousel-item {
+    transition: transform 0.6s ease; /* Adjust transition properties as needed */
+  }
+  p {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+.bidders li {
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+.bidders li .price {
+    font-weight: 700;
+    color: #000;
+}
+.bidder-image{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.footer{
+    padding: 64px;
+    background-color: black;
+    color: rgb(255, 168, 7);
+}
+.footer .footer-heading {
+    font-size: 25px;
+    margin-bottom: 30px;
+    color:rgb(255, 168, 7) ;
+}
+.footer .copyright {
+    padding-top: 7rem;
+    text-align: center;
+}
+.footer ul li {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+li a{
+    color: #e5f4fd;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.icon{
+    font-size: 30px;
+    color: rgb(228, 151, 8);
+    display: flex;
+}
+@media(max-width: 990px) {
+    body{
+        overflow-x: hidden;
+    }
+    .navbar {
+        background-color: rgb(228, 151, 8);
+    }
+    .candid p::after {
+        bottom: -2px; /* Adjust for smaller screens */
+    }
+    .background-image .text-overlay{
+        top: 70%;
+    }
+    .text-overlay h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        text-wrap: nowrap;
+    }
+    .product-descp {
+        margin-top: -490px;
+        /* background-color: aquamarine; */
+    }
+}
+@media (min-width: 991px) and (max-width: 1400px){
+    .background-image .text-overlay{
+       margin-top: 50px;
+    }
+    .text-overlay h1 {
+        font-size: 50x;
+        margin-bottom: 20px;
+        font-weight: 700;
+        text-wrap: nowrap;
+    }
+}

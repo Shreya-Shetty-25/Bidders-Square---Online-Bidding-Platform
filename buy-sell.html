@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy/Sell</title>
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Auction Website</title>
+    <link href="style3.css" rel="stylesheet"/>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<script>
+  function submitBid(){
+// Additional actions, such as form submission or AJAX requests, can be performed here
+
+// Navigate to the destination page
+window.location.href = "brassDeer.html";
+}
+</script>
+    <body style="background-color: whitesmoke;">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                  <!-- Logo -->
+                  <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="Logo" width="80">
+                  </a>
+                  <!-- Navbar toggler for responsive design -->
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <!-- Navbar links -->
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                      <!-- Left side links -->
+                      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                      <li class="nav-item"><a class="nav-link" href="buy-sell.html">Buy</a></li>
+                      <li class="nav-item"><a class="nav-link" href="buy-sell.html">Sell</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    </ul>
+                    <!-- Right side links -->
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item"><a class="nav-link" href="#">Sign In</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Register</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <div class="background-image">
+            <div class="text-overlay">
+                <h1>The Best Place to<br> Buy and Sell</h1>
+                <p>Discover amazing deals and bargains!</p>
+            </div>
+          </div>
+          <div class="site-section " style="margin-top: 500px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="side-box mb-5">
+                        <h3>Categories</h3>
+                        <ul class="list-unstyled auction-categories">
+                        <li><a href="#">Shoes <span>2109</span></a></li>
+                        <li><a href="#">Electronics <span>102</span></a></li>
+                        <li><a href="#">Clothing <span>392</span></a></li>
+                        <li><a href="#">Watches <span>291</span></a></li>
+                        <li><a href="#">Accessories <span>391</span></a></li>
+                        </ul>
+                        </div>
+                        <div class="side-box">
+                        <h3>Recent Bidders</h3>
+                        <ul class="list-unstyled bidders">
+                        <li class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                        <span class="mr-2">1.</span>
+                        <div class="d-flex align-items-center">
+                        <img src="images/bidder-1.jpg" alt="Image" class="mr-2 bidder-image">
+                        <span>Jean Smith</span>
+                        </div>
+                        </div>
+                        <span class="price"><span>&#8377;</span>40</span>
+                        </li>
+
+                        <li class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                        <span class="mr-2">2.</span>
+                        <div class="d-flex align-items-center">
+                        <img src="images/bidder-2.jpg" alt="Image" class="mr-2 bidder-image">
+                        <span>Chris Wilson</span>
+                        </div>
+                        </div>
+                        <span class="price"><span>&#8377;</span>87</span>
+                        </li>
+
+                        <li class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                        <span class="mr-2">3.</span>
+                        <div class="d-flex align-items-center">
+                        <img src="images/bidder-3.jpg" alt="Image" class="mr-2 bidder-image">
+                        <span>Kyle Anderson</span>
+                        </div>
+                        </div>
+                        <span class="price"><span>&#8377;</span>310</span>
+                        </li>
+
+                        <li class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                        <span class="mr-2">4.</span>
+                        <div class="d-flex align-items-center">
+                        <img src="images/bidder-4.jpg" alt="Image" class="mr-2 bidder-image">
+                        <span>Jean Smith</span>
+                        </div>
+                        </div>
+                        <span class="price"><span>&#8377;</span>40</span>
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                        <span class="mr-2">5.</span>
+                        <div class="d-flex align-items-center">
+                        <img src="images/bidder-5.jpg" alt="Image" class="mr-2 bidder-image">
+                        <span>Chris Wilson</span>
+                        </div>
+                        </div>
+                        <span class="price"><span>&#8377;</span>87</span>
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                        <span class="mr-2">6.</span>
+                        <div class="d-flex align-items-center">
+                        <img src="images/bidder-6.jpg" alt="Image" class="mr-2 bidder-image">
+                        <span>Kyle Anderson</span>
+                        </div>
+                        </div>
+                        <span class="price"><span>&#8377;</span>310</span>
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                        <span class="mr-2">7.</span>
+                        <div class="d-flex align-items-center">
+                        <img src="images/bidder-7.jpg" alt="Image" class="mr-2 bidder-image">
+                        <span>Jean Smith</span>
+                        </div>
+                        </div>
+                        <span class="price"><span>&#8377;</span>40</span>
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                        <span class="mr-2">8.</span>
+                        <div class="d-flex align-items-center">
+                        <img src="images/bidder-5.jpg" alt="Image" class="mr-2 bidder-image">
+                        <span>Chris Wilson</span>
+                        </div>
+                        </div>
+                        <span class="price"><span>&#8377;</span>87</span>
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                        <span class="mr-2">9.</span>
+                        <div class="d-flex align-items-center">
+                        <img src="images/bidder-8.jpg" alt="Image" class="mr-2 bidder-image">
+                        <span>Kyle Anderson</span>
+                        </div>
+                        </div>
+                        <span class="price"><span>&#8377;</span>310</span>
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                        <span class="mr-2">10.</span>
+                        <div class="d-flex align-items-center">
+                        <img src="images/bidder-8.jpg" alt="Image" class="mr-2 bidder-image">
+                        <span>Chris Wilson</span>
+                        </div>
+                        </div>
+                        <span class="price"><span>&#8377;</span>87</span>
+                        </li>
+                        </ul>
+                        </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="row auctions-entry">
+                            <div class="col-6 col-md-4 col-lg-4">
+                            <div class="item">
+                            <div>
+                            <strong class="price"><span>&#8377;</span>95</strong>
+                            <a href="brassDeer.html"><img src="images/product-1-deer.jpg" alt="Image" class="img-fluid"></a>
+                            </div>
+                            <div class="p-4">
+                            <h3 class="product-descp"><a href="brassDeer.html">Brass Deer</a></h3>
+                            <div class="d-flex mb-2 properties">
+                            <span>Shoes</span>
+                            <span class="ml-auto">4 bids</span>
+                            </div>
+                            <a href="brassDeer.html" class="btn btn-bid" style="margin-left: 60px; background-color: rgb(255, 168, 7); border-radius: 5px; color: azure;">Submit a Bid</a>
+                            </div>
+                            </div>
+                            </div>
+
+                            <div class="col-6 col-md-4 col-lg-4">
+                            <div class="item">
+                            <div>
+                            <strong class="price"><span>&#8377;</span>30</strong>
+                            <a href="brassDeer.html"><img src="images/product-2-cycle.jpg" alt="Image" class="img-fluid"></a>
+                            </div>
+                            <div class="p-4">
+                            <h3  class="product-descp"><a href="brassDeer.html">Red Super Bike</a></h3>
+                            <div class="d-flex mb-2">
+                            <span>Eye Glasses</span>
+                            <span class="ml-auto">10 bids</span>
+                            </div>
+                            <a href="brassDeer.html" class="btn btn-bid" style="margin-left: 60px; background-color: rgb(255, 168, 7); border-radius: 5px; color: azure;">Submit a Bid</a>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-4">
+                            <div class="item">
+                            <div>
+                            <strong class="price"><span>&#8377;</span>199</strong>
+                            <a href="brassDeer.html"><img src="images/product-3-desk.jpg" alt="Image" class="img-fluid"></a>
+                            </div>
+                            <div class="p-4">
+                            <h3  class="product-descp"><a href="brassDeer.html">Zane Grey- Vanishing American</a></h3>
+                            <div class="d-flex mb-2">
+                            <span>Clothing</span>
+                            <span class="ml-auto">24 bids</span>
+                            </div>
+                            <a href="brassDeer.html" class="btn btn-bid" style="margin-left: 60px; background-color: rgb(255, 168, 7); border-radius: 5px; color: azure;">Submit a Bid</a>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-4">
+                            <div class="item">
+                            <div>
+                            <strong class="price"><span>&#8377;</span>1,999</strong>
+                            <a href="brassDeer.html"><img src="images/product-4-bibicycle.jpg" alt="Image" class="img-fluid"></a>
+                            </div>
+                            <div class="p-4">
+                            <h3  class="product-descp"><a href="brassDeer.html">Biomega- KEP</a></h3>
+                            <div class="d-flex mb-2">
+                            <span>Clothing</span>
+                            <span class="ml-auto">224 bids</span>
+                            </div>
+                            <a href="brassDeer.html" class="btn btn-bid"  style="margin-left: 60px; background-color: rgb(255, 168, 7); border-radius: 5px; color: azure;">Submit a Bid</a>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-4">
+                            <div class="item">
+                            <div>
+                            <strong class="price"><span>&#8377;</span>777</strong>
+                            <a href="brassDeer.html"><img src="images/product-5-boat.jpg" alt="Image" class="img-fluid"></a>
+                            </div>
+                            <div class="p-4">
+                            <h3  class="product-descp"><a href="brassDeer.html">Pontoon Boat</a></h3>
+                            <div class="d-flex mb-2">
+                            <span>Electronics</span>
+                            <span class="ml-auto">11 bids</span>
+                            </div>
+                            <a href="brassDeer.html" class="btn btn-bid"  style="margin-left: 60px; background-color: rgb(255, 168, 7); border-radius: 5px; color: azure;">Submit a Bid</a>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-4">
+                            <div class="item">
+                            <div>
+                            <strong class="price"><span>&#8377;</span>78</strong>
+                            <a href="brassDeer.html"><img src="images/product-6-lenovo.jpg" alt="Image" class="img-fluid"></a>
+                            </div>
+                            <div class="p-4">
+                            <h3  class="product-descp"><a href="brassDeer.html">Lenovo K5 Note 4G</a></h3>
+                            <div class="d-flex mb-2">
+                            <span>Shoes</span>
+                            <span class="ml-auto">4 bids</span>
+                            </div>
+                            <a href="brassDeer.html" class="btn btn-bid"  style="margin-left: 60px; background-color: rgb(255, 168, 7); border-radius: 5px; color: azure;">Submit a Bid</a>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-4">
+                            <div class="item">
+                            <div>
+                            <strong class="price"><span>&#8377;</span>1,999</strong>
+                            <a href="brassDeer.html"><img src="images/product-8-brooch.jpg" alt="Image" class="img-fluid"></a>
+                            </div>
+                            <div class="p-4">
+                            <h3  class="product-descp"><a href="brassDeer.html">Flora Brooch</a></h3>
+                            <div class="d-flex mb-2">
+                            <span>Electronics</span>
+                            <span class="ml-auto">293 bids</span>
+                            </div>
+                            <a href="brassDeer.html" class="btn btn-bid  style="margin-left: 60px; background-color: rgb(255, 168, 7); border-radius: 5px; color: azure;"">Submit a Bid</a>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-4">
+                            <div class="item">
+                            <div>
+                            <strong class="price"><span>&#8377;</span>450</strong>
+                            <a href="brassDeer.html"><img src="images/product-9-bag.png" alt="Image" class="img-fluid"></a>
+                            </div>
+                            <div class="p-4">
+                            <h3  class="product-descp"><a href="brassDeer.html">MK Bag</a></h3>
+                            <div class="d-flex mb-2">
+                            <span>Electronics</span>
+                            <span class="ml-auto">123 bids</span>
+                            </div>
+                            <a href="brassDeer.html" class="btn btn-bid"  style="margin-left: 60px; background-color: rgb(255, 168, 7); border-radius: 5px; color: azure;">Submit a Bid</a>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-4">
+                            <div class="item">
+                            <div>
+                            <strong class="price"><span>&#8377;</span>80</strong>
+                            <a href="brassDeer.html"><img src="images/product-7-perfume.jpg" alt="Image" class="img-fluid"></a>
+                            </div>
+                            <div class="p-4">
+                            <h3  class="product-descp"><a href="brassDeer.html">Dior Perfume</a></h3>
+                            <div class="d-flex mb-2">
+                            <span>Eye Glasses</span>
+                            <span class="ml-auto">10 bids</span>
+                            </div>
+                            <a href="brassDeer.html" class="btn btn-bid"  style="margin-left: 60px; background-color: rgb(255, 168, 7); border-radius: 5px; color: azure;">Submit a Bid</a>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="container text-center">
+                                <div class="row">
+                                <div class="col-lg">
+                                <div class="custom-pagination">
+                                <a href="#" class="active">1</a>
+                                <a href="#">2</a>
+                                <a href="#">3</a>
+                                <a href="#">4</a>
+                                <a href="#">5</a>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                </div>
+            </div>
+          </div>
+         <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <p class="mb-4">
+          <img src="images/logo.png" alt="Logo" class="img-fluid" style="height: 120px; width: 160px; background-color: black;">
+        </p>
+        <p>Discover exclusive auctions, unbeatable deals, and more at BidderSquare. Join our community today and start bidding on your favorite items. Don't miss out on the excitement and savings!</p>
+        <p>
+          <a href="#" style="color: aliceblue;">Learn More</a>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <h3 class="footer-heading">
+          <span>Solutions</span>
+        </h3>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#">Register</a>
+          </li>
+          <li>
+            <a href="#">Login</a>
+          </li>
+          <li>
+            <a href="#">Buy</a>
+          </li>
+          <li>
+            <a href="#">Sell</a>
+          </li>
+          <li>
+            <a href="#">Submit a bid</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h3 class="footer-heading">
+          <span>Services</span>
+        </h3>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#">Register</a>
+          </li>
+          <li>
+            <a href="#">Login</a>
+          </li>
+          <li>
+            <a href="#">Buy</a>
+          </li>
+          <li>
+            <a href="#">Sell</a>
+          </li>
+          <li>
+            <a href="#">Submit a bid</a>
+          </li>
+        </ul>
+      </div>
+     <div class="col-lg-3">
+      <h3 class="footer-heading">
+        <span>Contact Us</span>
+      </h3>
+      <ul class="list-unstyled">
+        <li class="box-inline" style="text-align: start;">
+            <a href="#">
+              <i class="fas fa-map-marker-alt" style="color: rgb(255, 168, 7); font-size: 30px; padding-right: 20px;"></i>
+              ABC Street, Gujarat
+            </a>
+        </li>
+        <li class="box-inline">
+            <li><a href="callto:#"><i class="fas fa-phone"  style="color: rgb(255, 168, 7); font-size: 30px; padding-right: 20px;"></i>1-800-1234-567</a></li>
+        </li>
+        <li class="box-inline">
+          <li>
+            <a href="#"><i class="far fa-envelope" style="color: rgb(255, 168, 7); font-size: 30px; padding-right: 20px;"></i>bidsqr@demolink.org</a>
+          </li>
+      </li>
+      </ul>
+      <div class="row">
+        <div class="col-md-12">
+            <ul class="page-footer-icon-list social-icons-list d-flex justify-content-center" style="margin:auto">
+                <li><a class="icon icon-sm-bigger icon-gray-light fab fa-facebook" href="#"style="padding: 20px;"></a></li>
+                <li><a class="icon icon-sm-bigger icon-gray-light fab fa-twitter" href="#"style="padding: 20px;"></a></li>
+                <li><a class="icon icon-sm-bigger icon-gray-light fab fa-instagram" href="#"style="padding: 20px;"></a></li>
+                <li><a class="icon icon-sm-bigger icon-gray-light fab fa-google" href="#"style="padding: 20px;"></a></li>
+                <li><a class="icon icon-sm-bigger icon-gray-light fab fa-linkedin" href="#"style="padding: 20px;"></a></li>
+            </ul>
+        </div>
+    </div>
+    
+     </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="copyright">
+            <p>
+              " Copyright c"
+              <script>document.write(new Date().getFullYear());</script>
+              "2024 All rights reserved | This website is made by"
+              <a href="#" target="_blank" style="color: aliceblue;">Bidders Square</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

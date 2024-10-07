@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Auction Website</title>
+    <link href="style.css" rel="stylesheet"/>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <script>
+      function submitBid(){
+    window.location.href = "brassDeer.html";
+}
+    </script>
+</head>
+<body style="background-color: whitesmoke;">
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+              <!-- Logo -->
+              <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Logo" width="80">
+              </a>
+              <!-- Navbar toggler for responsive design -->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- Navbar links -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <!-- Left side links -->
+                  <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="buy-sell.html">Buy</a></li>
+                  <li class="nav-item"><a class="nav-link" href="buy-sell.html">Sell</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                  <!-- <li class="nav-item"><a class="nav-link" href="#">Blog</a></li> -->
+                  <!-- <li class="nav-item"><a class="nav-link" href="#">About</a></li> -->
+                  <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+                <!-- Right side links -->
+                <ul class="navbar-nav ml-auto" style="margin-right: 60px;">
+                  <li class="nav-item"><a class="nav-link" href="#">Sign In</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Register</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+      <div class="background-image">
+        <div class="text-overlay">
+            <h1>The Best Place to<br> Buy and Sell</h1>
+            <p>Discover amazing deals and bargains!</p>
+        </div>
+      </div>
+      <div class="candid">
+        <p style="font-size: 40px; color:black; font-family:'Trebuchet MS';">CURRENT<b> AUCTIONS</b></p>
+      </div>
+      <div class="container mt-5">
+        <div class="row sell_items">
+            <div class="col-xs-12 col-md-6 col-lg-3  product-box">
+               <div class="product-counter">
+                <div class="product-counter-inner">
+                  <div class="product-status">
+                    COUNTDOWN FINISHED
+                  </div>
+                  <div class="product-image">
+                    <a href="#"><img src="images/product-1-deer.jpg" class="product-image-properties"/></a>
+                  </div>
+                  <div>
+                    <a href="" class="product-description">Brass Recliner Deer</a>
+                  </div>
+                  <div class="row product-pricing">
+                    <div class="col-6">
+                      <p class="price" style="padding-top:40px;">Start Price</p>
+                      <p class="price-money" style="padding-bottom:30px;"><span>&#8377;</span>125.00</p>
+                    </div>
+                    <div class="col-6">
+                      <p class="price" style="padding-top:40px;">Current Price</p>
+                      <p class="price-money" style="padding-bottom:30px;"><span>&#8377;</span>387.00</p>
+                    </div>
+                  </div>
+                  <div class="submit-bid">
+                    <button class="btn submit-bid-button" onclick="submitBid()">
+                      SUBMIT A BID</button>
+                  </div>
+                </div>
+               </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3  product-box">
+             <div class="product-counter">
+                <div class="product-counter-inner">
+                  <div class="product-status">
+                    COUNTDOWN FINISHED
+                  </div>
+                  <div class="product-image">
+                    <a href="#"><img src="images/product-2-cycle.jpg" class="product-image-properties"/></a>
+                  </div>
+                  <div>
+                    <a href="" class="product-description">Super Red Bike</a>
+                  </div>
+                  <div class="row product-pricing">
+                    <div class="col-6">
+                      <p class="price" style="padding-top:40px;">Start Price</p>
+                      <p class="price-money" style="padding-bottom:30px;"><span>&#8377;</span>125.00</p>
+                    </div>
+                    <div class="col-6">
+                      <p class="price" style="padding-top:40px;">Current Price</p>
+                      <p class="price-money" style="padding-bottom:30px;"><span>&#8377;</span>387.00</p>
+                    </div>
+                  </div>
+                  <div class="submit-bid">
+                    <button class="btn submit-bid-button" onclick="submitBid()">SUBMIT A BID</button>
+                  </div>
+                </div>
+               </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3  product-box">
+             <div class="product-counter">
+                <div class="product-counter-inner">
+                  <div class="product-status">
+                    COUNTDOWN FINISHED
+                  </div>
+                  <div class="product-image">
+                    <a href="#"><img src="images/product-3-desk.jpg" class="product-image-properties"/></a>
+                  </div>
+                  <div>
+                    <a href="" class="product-description">Antique Table</a>
+                  </div>
+                  <div class="row product-pricing">
+                    <div class="col-6">
+                      <p class="price" style="padding-top:40px;">Start Price</p>
+                      <p class="price-money" style="padding-bottom:30px;"><span>&#8377;</span>125.00</p>
+                    </div>
+                    <div class="col-6">
+                      <p class="price" style="padding-top:40px;">Current Price</p>
+                      <p class="price-money" style="padding-bottom:30px;"><span>&#8377;</span>387.00</p>
+                    </div>
+                  </div>
+                  <div class="submit-bid">
+                    <button class="btn submit-bid-button" onclick="submitBid()">SUBMIT A BID</button>
+                  </div>
+                </div>
+               </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3  product-box">
+             <div class="product-counter">
+                <div class="product-counter-inner">
+                  <div class="product-status">
+                    COUNTDOWN FINISHED
+                  </div>
+                  <div class="product-image">
+                    <a href="#"><img src="images/product-4-bibicycle.jpg" class="product-image-properties"/></a>
+                  </div>
+                  <div>
+                    <a href="" class="product-description">Biomega- KEP</a>
+                  </div>
+                  <div class="row product-pricing">
+                    <div class="col-6">
+                      <p class="price" style="padding-top:40px;">Start Price</p>
+                      <p class="price-money" style="padding-bottom:30px;"><span>&#8377;</span>125.00</p>
+                    </div>
+                    <div class="col-6">
+                      <p class="price" style="padding-top:40px;">Current Price</p>
+                      <p class="price-money" style="padding-bottom:30px;"><span>&#8377;</span>387.00</p>
+                    </div>
+                  </div>
+                  <div class="submit-bid">
+                    <button class="btn submit-bid-button"  onclick="submitBid()">SUBMIT A BID</button>
+                  </div>
+                </div>
+               </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3 product-box">
+             <div class="product-counter">
+                <div class="product-counter-inner">
+                  <div class="product-status">
+                    COUNTDOWN FINISHED
+                  </div>
+                  <div class="product-image">
+                    <a href="#"><img src="images/product-5-boat.jpg" class="product-image-properties"/></a>
+                  </div>
+                  <div>
+                    <a href="" class="product-description">Pontoon Boat</a>
+                  </div>
+                  <div class="row product-pricing">
+                    <div class="col-6">
+                      <p class="price" style="padding-top:40px;">Start Price</p>
+                      <p class="price-money" style="padding-bottom:30px;"><span>&#8377;</span>125.00</p>
+                    </div>
+                    <div class="col-6">
+                      <p class="price" style="padding-top:40px;">Current Price</p>
+                      <p class="price-money" style="padding-bottom:30px;"><span>&#8377;</span>387.00</p>
+                    </div>
+                  </div>
+                  <div class="submit-bid">
+                    <button class="btn submit-bid-button"  onclick="submitBid()">SUBMIT A BID</button>
+                  </div>
+                </div>
+               </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3  product-box">
+             <div class="product-counter">
+                <div class="product-counter-inner">
+                  <div class="product-status">
+                    COUNTDOWN FINISHED
+                  </div>
+                  <div class="product-image">
+                    <a href="#"><img src="images/product-6-lenovo.jpg" class="product-image-properties"/></a>
+                  </div>
+                  <div>
+                    <a href="" class="product-description">Lenovo K5 Note</a>
+                  </div>
+                  <div class="row product-pricing">
+                    <div class="col-6">
+                      <p class="price" style="padding-top:40px;">Start Price</p>
+                      <p class="price-money" style="padding-bottom:30px;"><span>&#8377;</span>125.00</p>
+                    </div>
+                    <div class="col-6">
+                      <p class="price" style="padding-top:40px;">Current Price</p>
+                      <p class="price-money" style="padding-bottom:30px;"><span>&#8377;</span>387.00</p>
+                    </div>
+                  </div>
+                  <div class="submit-bid">
+                    <button class="btn submit-bid-button"  onclick="submitBid()">SUBMIT A BID</button>
+                  </div>
+                </div>
+               </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3  product-box">
+             <div class="product-counter">
+                <div class="product-counter-inner">
+                  <div class="product-status">
+                    COUNTDOWN FINISHED
+                  </div>
+                  <div class="product-image">
+                    <a href="#"><img src="images/product-9-bag.png" class="product-image-properties"/></a>
+                  </div>
+                  <div>
+                    <a href="" class="product-description">MK Bag</a>
+                  </div>
+                  <div class="row product-pricing">
+                    <div class="col-6">
+                      <p class="price" style="padding-top:40px;">Start Price</p>
+                      <p class="price-money" style="padding-bottom:30px;"><span>&#8377;</span>125.00</p>
+                    </div>
+                    <div class="col-6">
+                      <p class="price" style="padding-top:40px;">Current Price</p>
+                      <p class="price-money" style="padding-bottom:30px;"><span>&#8377;</span>387.00</p>
+                    </div>
+                  </div>
+                  <div class="submit-bid">
+                    <button class="btn submit-bid-button"  onclick="submitBid()">SUBMIT A BID</button>
+                  </div>
+                </div>
+               </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3  product-box">
+             <div class="product-counter">
+                <div class="product-counter-inner">
+                  <div class="product-status">
+                    COUNTDOWN FINISHED
+                  </div>
+                  <div class="product-image">
+                    <a href="#"><img src="images/product-8-brooch.jpg" class="product-image-properties"/></a>
+                  </div>
+                  <div>
+                    <a href="" class="product-description">Flora Brooch</a>
+                  </div>
+                  <div class="row product-pricing">
+                    <div class="col-6">
+                      <p class="price" style="padding-top:40px;">Start Price</p>
+                      <p class="price-money" style="padding-bottom:30px;"><span>&#8377;</span>125.00</p>
+                    </div>
+                    <div class="col-6">
+                      <p class="price" style="padding-top:40px;">Current Price</p>
+                      <p class="price-money" style="padding-bottom:30px;"><span>&#8377;</span>387.00</p>
+                    </div>
+                  </div>
+                  <div class="submit-bid">
+                    <button class="btn submit-bid-button"  onclick="submitBid()">SUBMIT A BID</button>
+                  </div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </div>
+   <div class="candid" style="margin-top: 40px;">
+<p style="font-size: 40px; color:black; font-family:'Trebuchet MS';" class="how-title">HOW IT WORKS</p>
+   </div>
+   <div class="how-it-works row">
+    <div class="col-xs-12 col-md-6 col-lg-3">
+      <div class="row">
+        <div class="col-12 circle">01</div>
+        <div class="col-12 details register-link">REGISTER</div>
+        <div class="description">
+          <p>To start using our auction, you'll need to register. It's completely free!</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-6 col-lg-3">
+      <div class="row">
+      <div class="circle">02</div>
+      <div class="col-12 details register-link">BUY OR BID</div>
+      <div class="description">
+        <p>You can instantly buy or place a bid on a desired product right after registration.</p>
+      </div>
+    </div>
+    </div>
+    <div class="col-xs-12 col-md-6 col-lg-3">
+      <div class="row">
+      <div class="circle">03</div>
+      <div class="col-12 details register-link">SUBMIT A BID</div>
+      <div class="description">
+        <p>Submitting a bid is fast and easy. The process takes approximately 5 minutes.</p>
+      </div>
+    </div>
+    </div>
+    <div class="col-xs-12 col-md-6 col-lg-3 ">
+      <div class="row">
+      <div class="circle">04</div>
+      <div class="col-12 details register-link">EASY WIN</div>
+      <div class="description">
+        <p>Easily win at our auction and enjoy owning the product you dream of.</p>
+      </div>
+    </div>
+    </div>
+
+   </div>
+   <div class="container-fluid comment-box" style="width: 100%;">
+    <div id="customer-comments" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container-fluid customer-review">
+                <p style="font-size: 40px; color: black; font-family: 'Trebuchet MS'; margin-top: 80px;" class="customer-heading">TESTIMONIALS OF OUR WINNERS</p>
+                <div style="margin-top: 90px;">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="customer-image" src="images/customer-1.jpg" style="height: 200px; width: 200px;">
+                        </div>
+                        <div class="col-md-9">
+                            <div class="customer-comment">
+                              <i class="fas fa-quote-left quotes" ></i>
+                                <p class="comment-descp">
+                                    I have never experienced such an easy procedure of placing a bid and selling products on your auction site. 
+                                    It's very simple and at the same time very secure, and thatss what I like most about Online Auction. 
+                                    I recommend this website to everyone who is looking for a reliable and safe website to place a bid or sell almost anything.
+                                </p>
+                            </div>
+                            <p class="cust-name">Clara James</p>
+                            <p class="cust-type">Regular Customer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid customer-review">
+                <p style="font-size: 40px; color: black; font-family: 'Trebuchet MS'; margin-top: 80px;" class="customer-heading">TESTIMONIALS OF OUR WINNERS</p>
+                <div style="margin-top: 90px;">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="customer-image" src="images/customer-2.avif" style="height: 200px; width: 200px;">
+                        </div>
+                        <div class="col-md-9">
+                            <div class="customer-comment">
+                              <i class="fas fa-quote-left quotes" ></i>
+                                <p class="comment-descp">
+                                  On behalf of our company, I wanted to thank you for the exceptional service you provided us with selling some of 
+                                  our equipment and raising more money than we hoped. This was our first time using online auction, 
+                                  and everything went extremely smoothly, from the registration to selling the products and their delivery.
+                                </p>
+                            </div>
+                            <p class="cust-name">Max Ortega</p>
+                            <p class="cust-type">Regular Customer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid customer-review">
+                <p style="font-size: 40px; color: black; font-family: 'Trebuchet MS'; margin-top: 80px;" class="customer-heading">TESTIMONIALS OF OUR WINNERS</p>
+                <div style="margin-top: 90px;">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="customer-image" src="images/customer-3.avif" style="height: 200px; width: 200px;">
+                        </div>
+                        <div class="col-md-9">
+                            <div class="customer-comment">
+                              <i class="fas fa-quote-left quotes" ></i>
+                                <p class="comment-descp">
+                                  I just wanted to take the time and say I am very impressed with your online bidding site.
+                                   I'm pleased I can create a watchlist and bid & delete lots out of it. Also, there's no more scrolling to the bottom of 
+                                   every page just to place 1 bid. It really helps when it's necessary to place a single bid and do it quickly.
+                                </p>
+                            </div>
+                            <p class="cust-name">Sarah Beeston</p>
+                            <p class="cust-type">Regular Customer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev active" type="button" data-bs-target="#customer-comments" data-bs-slide="prev">
+          <!-- Bootstrap icon for the previous arrow -->
+          <i class="bi bi-arrow-left-circle-fill" style="font-size: 40px; color: rgb(255, 168, 7);"></i>
+
+          <span class="bi bi-arrow-left" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <!-- Next button with Bootstrap icon -->
+      <button class="carousel-control-next active "type="button" data-bs-target="#customer-comments" data-bs-slide="next">
+          <!-- Bootstrap icon for the next arrow -->
+          <i class="bi bi-arrow-right-circle-fill" style="font-size: 40px;color: rgb(255, 168, 7);"></i>
+
+          <span class="bi bi-arrow-right" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+</div>
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <p class="mb-4">
+          <img src="images/logo.png" alt="Logo" class="img-fluid" style="height: 120px; width: 160px;">
+        </p>
+        <p>Discover exclusive auctions, unbeatable deals, and more at BidderSquare. Join our community today and start bidding on your favorite items. Don't miss out on the excitement and savings!</p>
+        <p>
+          <a href="#" style="color: aliceblue;">Learn More</a>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <h3 class="footer-heading">
+          <span>Solutions</span>
+        </h3>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#">Register</a>
+          </li>
+          <li>
+            <a href="#">Login</a>
+          </li>
+          <li>
+            <a href="#">Buy</a>
+          </li>
+          <li>
+            <a href="#">Sell</a>
+          </li>
+          <li>
+            <a href="#">Submit a bid</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h3 class="footer-heading">
+          <span>Services</span>
+        </h3>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#">Register</a>
+          </li>
+          <li>
+            <a href="#">Login</a>
+          </li>
+          <li>
+            <a href="#">Buy</a>
+          </li>
+          <li>
+            <a href="#">Sell</a>
+          </li>
+          <li>
+            <a href="#">Submit a bid</a>
+          </li>
+        </ul>
+      </div>
+     <div class="col-lg-3">
+      <h3 class="footer-heading">
+        <span>Contact Us</span>
+      </h3>
+      <ul class="list-unstyled">
+        <li class="box-inline" style="text-align: start;">
+            <a href="#">
+              <i class="fas fa-map-marker-alt" style="color: rgb(255, 168, 7); font-size: 30px; padding-right: 20px;"></i>
+              ABC Street, Gujarat
+            </a>
+        </li>
+        <li class="box-inline">
+            <li><a href="callto:#"><i class="fas fa-phone"  style="color: rgb(255, 168, 7); font-size: 30px; padding-right: 20px;"></i>1-800-1234-567</a></li>
+        </li>
+        <li class="box-inline">
+          <li>
+            <a href="#"><i class="far fa-envelope" style="color: rgb(255, 168, 7); font-size: 30px; padding-right: 20px;"></i>bidsqr@demolink.org</a>
+          </li>
+      </li>
+      </ul>
+      <div class="row">
+        <div class="col-md-12">
+            <ul class="page-footer-icon-list social-icons-list d-flex justify-content-center" style="margin:auto">
+                <li><a class="icon icon-sm-bigger icon-gray-light fab fa-facebook" href="#"style="padding: 20px;"></a></li>
+                <li><a class="icon icon-sm-bigger icon-gray-light fab fa-twitter" href="#"style="padding: 20px;"></a></li>
+                <li><a class="icon icon-sm-bigger icon-gray-light fab fa-instagram" href="#"style="padding: 20px;"></a></li>
+                <li><a class="icon icon-sm-bigger icon-gray-light fab fa-google" href="#"style="padding: 20px;"></a></li>
+                <li><a class="icon icon-sm-bigger icon-gray-light fab fa-linkedin" href="#"style="padding: 20px;"></a></li>
+            </ul>
+        </div>
+    </div>
+    
+     </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="copyright">
+            <p>
+              " Copyright c"
+              <script>document.write(new Date().getFullYear());</script>
+              "2024 All rights reserved | This website is made by"
+              <a href="#" target="_blank" style="color: aliceblue;">Bidders Square</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</body>
+</html>
