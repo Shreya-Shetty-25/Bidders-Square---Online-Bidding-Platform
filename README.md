@@ -21,4 +21,19 @@ Bidders Square is an **online bidding platform** designed to facilitate buying a
 2. Open the project folder and load the `index.html` file in your browser to view the platform in action.
 
 ## Screenshots:
-- Screenshots of the **Home Page**, **Product Listings**, and **Bidder Interface** can be viewed in the `images/` folder.
+### Home Page
+![Home Page](./website%20images/Homepage.png)
+
+### Product Listing
+![Product Listing](./website%20images/products.png)
+
+### Product Image
+![Product Listing](./website%20images/product%20image.png)
+
+### Customers
+![Auction Details](./website%20images/customers.png)
+
+### Footer
+![Auction Details](./website%20images/footer.png)
+
+Feel free to explore and contribute!
